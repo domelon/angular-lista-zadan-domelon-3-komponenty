@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { AddTaskComponent } from './add-task/add-task.component';
 import { TodoComponent } from './todo/todo.component';
+import { DoneTaskComponent } from './done-task/done-task.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, AddTaskComponent, TodoComponent ],
+  declarations: [ AppComponent, HelloComponent, AddTaskComponent, TodoComponent, DoneTaskComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
